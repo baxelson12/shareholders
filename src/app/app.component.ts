@@ -39,6 +39,7 @@ export class AppComponent {
   );
 
   release(): void {
+    console.log(this.contract);
     this.status = '';
     this.account$
       .pipe(
