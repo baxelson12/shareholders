@@ -24,7 +24,7 @@ export class AppComponent {
   web3 = new Web3((window as any).web3.currentProvider);
   contract = new this.web3.eth.Contract(
     abi as AbiItem[],
-    '0x5e8fd801497b0846bd167ab90051dd05cf690267'
+    '0x56e59d14B4767A816d1060676994D44Ae8f5536E'
   );
   eth = (window as any).ethereum;
   account$: Observable<string> = from<string[]>(
